@@ -5,7 +5,7 @@ class Counters extends Component {
   render() {
     return (
       <>
-        <button onClick={this.props.onReset}>Reset</button>
+        <button onClick={this.props.onReset}>Reset Counters</button>
 
         {this.props.counters.map((counter) => (
           <Counter
