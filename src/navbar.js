@@ -7,7 +7,7 @@ class NavBar extends React.Component {
         <nav className="navbar bg-light">
           <div className="container-fluid">
             <a className="navbar-brand" href="https://www.google.com/">
-              Navbar{" "}
+              Google{" "}
               <span className="badge badge-pill badge-secondary">
                 {this.props.totalCounters}
               </span>
